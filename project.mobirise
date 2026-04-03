@@ -21,7 +21,7 @@
         "display5Font": "Alegreya",
         "display5Size": 2,
         "display7Font": "Signika",
-        "display7Size": "1.5",
+        "display7Size": "1.8",
         "display4Font": "Calistoga",
         "display4Size": 1.4,
         "isRoundedImages": true,
@@ -30,7 +30,7 @@
         "isGhostButtonBorder": true,
         "underlinedLinks": true,
         "isAnimatedOnScroll": true,
-        "isScrollToTopButton": true
+        "isScrollToTopButton": false
       },
       "additionalSetColors": []
     },
@@ -151,7 +151,7 @@
               "box-shadow": "(@LeRi * 1px) (@UpDo * 1px) (@Flou * 1px) (@FlouInt * 1px) @ShadowColor"
             },
             ".mu-about-right p": {
-              "font-size": "15px"
+              "font-size": "18px !important"
             },
             "img": {
               "border": "none",
