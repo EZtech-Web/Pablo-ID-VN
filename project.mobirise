@@ -142,6 +142,7 @@
             ".mu-about-right": {
               "display": "inline",
               "float": "left",
+              "position": "sticky",
               "margin-top": "35px",
               "width": "130%",
               "background-color": "@bgCardColor",
@@ -212,6 +213,8 @@
           "_cid": "aa47ZVex5S",
           "_anchor": "design-block-aa47ZVex5S",
           "_sourceTheme": "startm5",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
           "_protectedParams": [],
           "_global": false,
           "_once": false,

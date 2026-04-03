@@ -808,6 +808,7 @@ a {
 .cid-aa47ZVex5S .mu-about-right {
   display: inline;
   float: left;
+  position: sticky;
   margin-top: 35px;
   width: 130%;
   background-color: #ffffff;
