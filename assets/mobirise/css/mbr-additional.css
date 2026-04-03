@@ -21,7 +21,7 @@ body {
   font-family: Inter Tight;
 }
 .display-1 {
-  font-family: 'Inter Tight', sans-serif;
+  font-family: 'Philosopher', sans-serif;
   font-size: 5rem;
   line-height: 1;
 }
@@ -29,7 +29,7 @@ body {
   font-size: 6.25rem;
 }
 .display-2 {
-  font-family: 'Inter Tight', sans-serif;
+  font-family: 'Yeseva One', display;
   font-size: 4rem;
   line-height: 1;
 }
@@ -37,7 +37,7 @@ body {
   font-size: 5rem;
 }
 .display-4 {
-  font-family: 'Inter Tight', sans-serif;
+  font-family: 'Calistoga', display;
   font-size: 1.4rem;
   line-height: 1.5;
 }
@@ -45,7 +45,7 @@ body {
   font-size: 1.75rem;
 }
 .display-5 {
-  font-family: 'Inter Tight', sans-serif;
+  font-family: 'Alegreya', serif;
   font-size: 2rem;
   line-height: 1.5;
 }
@@ -53,12 +53,12 @@ body {
   font-size: 2.5rem;
 }
 .display-7 {
-  font-family: 'Inter Tight', sans-serif;
-  font-size: 1.4rem;
+  font-family: 'Signika', sans-serif;
+  font-size: 1.5rem;
   line-height: 1.3;
 }
 .display-7 > .mbr-iconfont {
-  font-size: 1.75rem;
+  font-size: 1.875rem;
 }
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
@@ -92,9 +92,9 @@ body {
     line-height: calc( 1.4 * (1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-7 {
-    font-size: 1.12rem;
-    font-size: calc( 1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 1.2rem;
+    font-size: calc( 1.175rem + (1.5 - 1.175) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.175rem + (1.5 - 1.175) * ((100vw - 20rem) / (48 - 20))));
   }
 }
 @media (min-width: 992px) and (max-width: 1400px) {
@@ -119,9 +119,9 @@ body {
     line-height: calc( 1.4 * (1.35rem + (2 - 1.35) * ((100vw - 62rem) / (87 - 62))));
   }
   .display-7 {
-    font-size: 1.12rem;
-    font-size: calc( 1.14rem + (1.4 - 1.14) * ((100vw - 62rem) / (87 - 62)));
-    line-height: calc( 1.4 * (1.14rem + (1.4 - 1.14) * ((100vw - 62rem) / (87 - 62))));
+    font-size: 1.2rem;
+    font-size: calc( 1.175rem + (1.5 - 1.175) * ((100vw - 62rem) / (87 - 62)));
+    line-height: calc( 1.4 * (1.175rem + (1.5 - 1.175) * ((100vw - 62rem) / (87 - 62))));
   }
 }
 /* Buttons */
@@ -570,17 +570,12 @@ a.text-black.active {
   color: #000000 !important;
 }
 a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-caption) {
+  transition: 0.2s;
   position: relative;
-  background-image: transparent;
+  background-image: linear-gradient(currentColor 50%, currentColor 50%);
   background-size: 10000px 2px;
   background-repeat: no-repeat;
-  background-position: 0px 1.2em;
-  background-position: -10000px 1.2em;
-}
-a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-caption):hover {
-  transition: background-position 2s ease-in-out;
-  background-image: linear-gradient(currentColor 50%, currentColor 50%);
-  background-position: 0px 1.2em;
+  background-position: 0 1.2em;
 }
 .nav-tabs .nav-link.active {
   color: #9fe870;
@@ -642,18 +637,18 @@ a:hover {
   color: #ffffff;
 }
 /* Scroll to top button*/
-.scrollToTop_wraper {
-  display: none;
+#scrollToTop a {
+  border-radius: 100px;
 }
 .form-control {
-  font-family: 'Inter Tight', sans-serif;
-  font-size: 1.4rem;
+  font-family: 'Signika', sans-serif;
+  font-size: 1.5rem;
   line-height: 1.3;
   font-weight: 400;
   border-radius: 40px !important;
 }
 .form-control > .mbr-iconfont {
-  font-size: 1.75rem;
+  font-size: 1.875rem;
 }
 .form-control:hover,
 .form-control:focus {
@@ -661,13 +656,13 @@ a:hover {
   border-color: #9fe870 !important;
 }
 .form-control:-webkit-input-placeholder {
-  font-family: 'Inter Tight', sans-serif;
-  font-size: 1.4rem;
+  font-family: 'Signika', sans-serif;
+  font-size: 1.5rem;
   line-height: 1.3;
   font-weight: 400;
 }
 .form-control:-webkit-input-placeholder > .mbr-iconfont {
-  font-size: 1.75rem;
+  font-size: 1.875rem;
 }
 blockquote {
   border-color: #9fe870;
@@ -783,4 +778,98 @@ a {
   outline: red solid 2px !important;
   outline-offset: 2px !important;
   transition: outline 0.2s ease-in-out;
+}
+.cid-aa47ZVex5S {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background: linear-gradient(0deg, #a0e1e1, #232323);
+}
+.cid-aa47ZVex5S .mbr-section {
+  text-align: center;
+  color: #fff;
+}
+.cid-aa47ZVex5S #mu-about {
+  background-color: #fff;
+  display: inline;
+  float: left;
+  width: 100%;
+}
+.cid-aa47ZVex5S .mu-about-area {
+  display: inline;
+  float: left;
+  padding: 100px 0;
+  width: 100%;
+}
+.cid-aa47ZVex5S .mu-about-left {
+  display: inline;
+  float: left;
+  width: 100%;
+}
+.cid-aa47ZVex5S .mu-about-right {
+  display: inline;
+  float: left;
+  position: sticky;
+  margin-top: 35px;
+  width: 130%;
+  background-color: #ffffff;
+  padding: 40px;
+  margin-left: -175px;
+  box-shadow: 15px 20px 22px -7px #232323;
+}
+.cid-aa47ZVex5S .mu-about-right p {
+  font-size: 15px;
+}
+.cid-aa47ZVex5S img {
+  border: none;
+  max-width: 100%;
+}
+@media (max-width: 1199px) {
+  .cid-aa47ZVex5S .mu-about-right {
+    margin-top: 20px;
+    width: 140%;
+    padding: 25px;
+    margin-left: -190px;
+  }
+}
+@media (max-width: 991px) {
+  .cid-aa47ZVex5S .mu-about-left img {
+    max-width: none;
+    width: 115%;
+  }
+  .cid-aa47ZVex5S .mu-about-right {
+    margin-top: 75px;
+    width: 160%;
+    padding: 20px;
+    margin-left: -190px;
+  }
+  .cid-aa47ZVex5S .mu-about-right p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 767px) {
+  .cid-aa47ZVex5S .mu-about-area {
+    padding: 50px 0;
+  }
+  .cid-aa47ZVex5S .mu-about-left img {
+    max-width: 100%;
+    width: auto;
+  }
+  .cid-aa47ZVex5S .mu-about-right {
+    margin-top: 30px;
+    width: 100%;
+    padding: 0;
+    margin-left: 0;
+    box-shadow: none;
+  }
+  .cid-aa47ZVex5S .mu-about-right p {
+    font-size: 15px;
+  }
+}
+.cid-aa47ZVex5S .mbr-section-subtitle {
+  text-align: left;
+  color: #232323;
+}
+.cid-aa47ZVex5S P {
+  text-align: left;
+  color: #232323;
 }
