@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "[Igor Pablo] {Snow Man}",
-    "currentPage": "OzPablo-Intro.html",
+    "currentPage": "EzPablo-Intro.html",
     "theme": {
       "name": "startm5",
       "title": "StartM5",
@@ -95,7 +95,7 @@
       "settings": {
         "main": true,
         "title": "[Wz Pablo] {Snow Man}",
-        "meta_descr": "[Wz Pablo] {Snow Man} | RU | US | UK | VN | JP | DE | CN | FR| NL | WE ARE THE WORLD",
+        "meta_descr": "[Wz Pablo] {Snow Man} | RU | US | UK | VN | JP | DE | CN | FR | NL | WE ARE THE WORLD",
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
@@ -225,7 +225,7 @@
     "OzPablo-Intro.html": {
       "settings": {
         "title": "[Oz Pablo] {Snow Man}",
-        "meta_descr": "[Oz Pablo] {Snow Man} | RU | US | UK | VN | JP | DE | CN | FR| NL | WE ARE THE WORLD",
+        "meta_descr": "[Oz Pablo] {Snow Man} | RU | US | UK | VN | JP | DE | CN | FR | NL | WE ARE THE WORLD",
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
@@ -356,7 +356,7 @@
     "UzPablo-Intro.html": {
       "settings": {
         "title": "[Uz Pablo] {Snow Man}",
-        "meta_descr": "[Uz Pablo] {Snow Man} | RU | US | UK | VN | JP | DE | CN | FR| NL | WE ARE THE WORLD",
+        "meta_descr": "[Uz Pablo] {Snow Man} | RU | US | UK | VN | JP | DE | CN | FR | NL | WE ARE THE WORLD",
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
@@ -477,6 +477,138 @@
           "_JSplaceholders": [],
           "_cid": "vgn3QyhXOv",
           "_anchor": "design-block-2",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "EzPablo-Intro.html": {
+      "settings": {
+        "title": "[Ez Pablo] {Snow Man}",
+        "order": "3",
+        "meta_descr": "[Ez Pablo] {Snow Man} | RU | US | UK | VN | JP | DE | CN | FR | NL | WE ARE THE WORLD"
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background": "linear-gradient(to bottom right, @gColor, @bg-value)"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)",
+              ".card-box": {
+                "padding": "1rem 2rem 2rem"
+              }
+            },
+            "& when (@bg-type = 'video')": {
+              ".card-box": {
+                "padding": "1rem 2rem 2rem"
+              }
+            },
+            ".text-color": {
+              "color": "#ffffff"
+            },
+            "*": {
+              "margin": "0",
+              "padding": "0",
+              "outline": "none",
+              "border": "none",
+              "box-sizing": "border-box"
+            },
+            "*:before, *:after": {
+              "box-sizing": "border-box"
+            },
+            "html, body": {
+              "min-height": "100%"
+            },
+            "h1": {
+              "display": "table",
+              "margin": "5% auto 0",
+              "text-transform": "uppercase",
+              "font-family": "'Times Roman', sans-serif",
+              "font-size": "3em",
+              "font-weight": "400",
+              "color": "#fff",
+              "text-shadow": "0 1px white, 0 1px black"
+            },
+            ".container": {
+              "margin": "4% auto",
+              "width": "210px",
+              "height": "140px",
+              "position": "relative",
+              "perspective": "1000px"
+            },
+            "#carousel": {
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "transform-style": "preserve-3d",
+              "animation": "rotation 20s infinite linear"
+            },
+            "#carousel:hover": {
+              "animation-play-state": "paused"
+            },
+            "#carousel figure": {
+              "display": "block",
+              "position": "absolute",
+              "width": "90%",
+              "height": "50%px",
+              "left": "10px",
+              "top": "10px",
+              "background": "black",
+              "overflow": "hidden",
+              "border": "solid 3px black"
+            },
+            "#carousel figure:nth-child(1)": {
+              "transform": "rotateY(0deg) translateZ(288px)"
+            },
+            "#carousel figure:nth-child(2)": {
+              "transform": "rotateY(40deg) translateZ(288px)"
+            },
+            "#carousel figure:nth-child(3)": {
+              "transform": "rotateY(80deg) translateZ(288px)"
+            },
+            "#carousel figure:nth-child(4)": {
+              "transform": "rotateY(120deg) translateZ(288px)"
+            },
+            "#carousel figure:nth-child(5)": {
+              "transform": "rotateY(160deg) translateZ(288px)"
+            },
+            "#carousel figure:nth-child(6)": {
+              "transform": "rotateY(200deg) translateZ(288px)"
+            },
+            "#carousel figure:nth-child(7)": {
+              "transform": "rotateY(240deg) translateZ(288px)"
+            },
+            "#carousel figure:nth-child(8)": {
+              "transform": "rotateY(280deg) translateZ(288px)"
+            },
+            "#carousel figure:nth-child(9)": {
+              "transform": "rotateY(320deg) translateZ(288px)"
+            },
+            "img:hover": {
+              "-webkit-filter": "grayscale(0)",
+              "transform": "scale(1.2, 1.2)"
+            },
+            "@keyframes rotation": {
+              "from": {
+                "transform": "rotateY(0deg)"
+              },
+              "to": {
+                "transform": "rotateY(360deg)"
+              }
+            }
+          },
+          "_name": "design-block",
+          "_customHTML": "<section data-bs-version=\"5.1\" mbr-id=\"_3d_image_view\" class=\"mbr-section 3d_image_view\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n      <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n      <select title=\"Slider Count\" name=\"dimgslidercount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n        <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        <option value=\"7\">7</option>\n            <option value=\"8\">8</option>\n            <option value=\"9\" selected>9</option>\n        </select>\n       <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background2.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#673ab7\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n      <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n      <input type=\"color\" title=\"Gradiant Color\" name=\"gColor\" value=\"#7f1933\" condition=\"overlay && bg.type == 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n  <!--Overlay-->\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <!--Container-->\n<h1 mbr-if=\"showTitle\">CONTAINER BOOK SHOP</h1><br>\n<div class=\"container\">\n    <div id=\"carousel\">\n        <figure mbr-if=\"dimgslidercount > 0\"><img src=\"@PROJECT_PATH@/assets/images/zbook-contshop-f.png\" alt=\"CBook_ContShop_F\"></figure>\n        <figure mbr-if=\"dimgslidercount > 1\"><img src=\"@PROJECT_PATH@/assets/images/zbook-contshop-e.png\" alt=\"CBook_ContShop_E\"></figure>\n        <figure mbr-if=\"dimgslidercount > 2\"><img src=\"@PROJECT_PATH@/assets/images/zbook-contshop-d.png\" alt=\"CBook_ContShop_D\"></figure>\n        <figure mbr-if=\"dimgslidercount > 3\"><img src=\"@PROJECT_PATH@/assets/images/zbook-contshop-c.png\" alt=\"CBook_ContShop_C\"></figure>\n        <figure mbr-if=\"dimgslidercount > 4\"><img src=\"@PROJECT_PATH@/assets/images/zbook-contshop-b.png\" alt=\"CBook_ContShop_B\"></figure>\n        <figure mbr-if=\"dimgslidercount > 5\"><img src=\"@PROJECT_PATH@/assets/images/zbook-contshop-a.png\" alt=\"CBook_ContShop_A\"></figure>\n        <figure mbr-if=\"dimgslidercount > 6\"><img src=\"@PROJECT_PATH@/assets/images/zbook-contshop-i.png\" alt=\"CBook_ContShop_I\"></figure>\n        <figure mbr-if=\"dimgslidercount > 7\"><img src=\"@PROJECT_PATH@/assets/images/zbook-contshop-h.png\" alt=\"CBook_ContShop_H\"></figure>\n        <figure mbr-if=\"dimgslidercount > 8\"><img src=\"@PROJECT_PATH@/assets/images/zbook-contshop-g.png\" alt=\"CBook_ContShop_G\"></figure>\n    </div>\n</div>\n</section>",
+          "_cid": "4aRX2kprKy",
+          "_anchor": "design-block-4aRX2kprKy",
+          "_sourceTheme": "startm5",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
