@@ -15,7 +15,7 @@
 			'https://embed.tawk.to/_s/v4/app/69e6f4c07ce/js/twk-main.js',
 			'https://embed.tawk.to/_s/v4/app/69e6f4c07ce/js/twk-vendor.js',
 			'https://embed.tawk.to/_s/v4/app/69e6f4c07ce/js/twk-chunk-vendors.js',
-			'https://embed.tawk.to/_s/v4/app/69e6f4c07ce/js/twk-chunk-common.js',
+			'https://pablo.id.vn/iChat/TawkToApp.js',
 			'https://embed.tawk.to/_s/v4/app/69e6f4c07ce/js/twk-runtime.js',
 			'https://embed.tawk.to/_s/v4/app/69e6f4c07ce/js/twk-app.js'
 		];
