@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
         popup.innerHTML = `
             <h2>Thông Báo</h2>
             <p>Text-Test-Text</p>
-            <button id="close-popup">Đóng</button>
+            <button id="close-popup">Đóng Thông Báo</button>
         `;
 
         overlay.appendChild(popup);
