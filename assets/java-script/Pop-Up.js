@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
         popup.innerHTML = `
             <h2>[NOAH SYSTEM] {NETWORK}</h2>
 				<p>
-				<a href="https://pablo.id.vn/NOAH-Network" target="_blank" data-fancybox>
+				<a href="https://pablo.id.vn/NOAH-Network" target="_blank">
 					<img src="assets/images/NOAH_POPUP.png" alt="[NOAH] {SYSTEM}">
 				</a>
 				</p>
