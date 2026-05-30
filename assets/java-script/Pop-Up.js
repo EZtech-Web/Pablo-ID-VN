@@ -2,7 +2,6 @@
 
 document.addEventListener("DOMContentLoaded", function () {
 
-```
 setTimeout(function () {
 
     $.fancybox.open({
@@ -31,6 +30,5 @@ setTimeout(function () {
     });
 
 }, 15000);
-```
 
 });
