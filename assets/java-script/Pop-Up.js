@@ -33,7 +33,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
         popup.innerHTML = `
             <h2>Thông Báo</h2>
-            <p>Text-Test-Text</p>
+				<p>
+				<div class="image-block m-auto">
+					<img src="assets/images/noah-analytic-dz.png" alt="[NOAH] {SYSTEM}">
+				</div>
+				</p>
             <button id="close-popup">Đóng Thông Báo</button>
         `;
 
