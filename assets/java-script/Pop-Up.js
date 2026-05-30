@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
 setTimeout(function () {
 
     $.fancybox.open({
-        src: `
+        src: '
             <div id="noah-popup" style="max-width:600px; text-align:center; padding:15px;">
                 <h2>[NOAH SYSTEM] {NETWORK}</h2>
 
@@ -17,7 +17,7 @@ setTimeout(function () {
                     >
                 </a>
             </div>
-        `,
+        ',
         type: "html",
 
         opts: {
