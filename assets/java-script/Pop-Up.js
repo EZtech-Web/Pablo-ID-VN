@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     <p>
                         <a href="https://pablo.id.vn/NOAH-Network" target="_blank">
                             <img
-                                src="assets/images/NOAH_POPUP.gif"
+                                src="assets/images/NOAH_SYSTEM.gif"
                                 alt="[NOAH] {SYSTEM}"
                                 style="max-width:100%;height:auto;"
                             >
