@@ -26,16 +26,16 @@ document.addEventListener("DOMContentLoaded", function () {
             background: #fff;
             padding: 25px;
             border-radius: 10px;
-            max-width: 400px;
+            max-width: 500px;
             text-align: center;
             box-shadow: 0 0 20px rgba(0,0,0,0.3);
         `;
 
         popup.innerHTML = `
-            <h2>Thông Báo</h2>
+            <h2>[NOAH SYSTEM] {NETWORK}</h2>
 				<p>
 				<div class="image-block m-auto">
-					<img src="assets/images/noah-analytic-dz.png" alt="[NOAH] {SYSTEM}">
+					<img src="assets/images/NOAH_POPUP.png" alt="[NOAH] {SYSTEM}">
 				</div>
 				</p>
             <button id="close-popup">Đóng Thông Báo</button>
