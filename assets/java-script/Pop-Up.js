@@ -32,8 +32,8 @@ document.addEventListener("DOMContentLoaded", function () {
         `;
 
         popup.innerHTML = `
-            <h2>Thông báo</h2>
-            <p>Đây là nội dung popup xuất hiện sau 15 giây.</p>
+            <h2>Thông Báo</h2>
+            <p>Text-Test-Text</p>
             <button id="close-popup">Đóng</button>
         `;
 
