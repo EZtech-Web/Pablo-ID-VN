@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         $.fancybox.open({
             src: `
-                <div style="text-align:center;max-width:500px;">
+                <div style="text-align:center;max-width:500px;padding:0px;">
                     <h2>[NOAH SYSTEM] {NETWORK}</h2>
 
                     <p>
