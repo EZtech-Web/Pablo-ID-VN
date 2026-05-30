@@ -1,14 +1,12 @@
-// Pop-Up.js
+$(document).ready(function () {
 
-document.addEventListener("DOMContentLoaded", function () {
+    // Chờ 15 giây sau khi trang load
+    setTimeout(function () {
 
-setTimeout(function () {
-
-    $.fancybox.open({
-        src: "
-            <div id="noah-popup" style="max-width:600px; text-align:center; padding:15px;">
+        $.fancybox.open({
+            src: '
+			    <div id="noah-popup" style="max-width:600px; text-align:center; padding:15px;">
                 <h2>[NOAH SYSTEM] {NETWORK}</h2>
-
                 <a href="https://pablo.id.vn/NOAH-Network" target="_blank">
                     <img
                         src="assets/images/NOAH_POPUP.png"
@@ -16,19 +14,18 @@ setTimeout(function () {
                         style="max-width:100%; height:auto;"
                     >
                 </a>
-            </div>
-        ",
-        type: "html",
+				</div>
+			',
+            type: 'html',
+            opts: {
+				smallBtn: true,
+				toolbar: false,
+				touch: false,
+				animationEffect: "zoom",
+				transitionEffect: "fade"
+            }
+        });
 
-        opts: {
-            smallBtn: true,
-            toolbar: false,
-            touch: false,
-            animationEffect: "zoom",
-            transitionEffect: "fade"
-        }
-    });
-
-}, 15000);
+    }, 15000);
 
 });
