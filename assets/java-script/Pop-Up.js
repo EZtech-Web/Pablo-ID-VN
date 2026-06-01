@@ -42,6 +42,6 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         });
 
-    }, 15000); // 15 giây
+    }, 10000); // 10 giây
 
 });
